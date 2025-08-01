@@ -1,0 +1,19 @@
+
+@import "tailwindcss";
+
+.dark body {
+  background: linear-gradient(to bottom right, #0f172a, #1e293b);
+  color: white;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.light body {
+  background: linear-gradient(to bottom right, #f3f4f6, #e0e7ef);
+  color: #222;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+}
+
